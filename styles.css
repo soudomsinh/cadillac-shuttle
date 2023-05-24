@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+@media (max-width: 576px) {
+    .col-lg-4 {
+      display: flex;
+      justify-content: center; /* For horizontal alignment */
+      align-items: center; /* For vertical alignment */
+      text-align: center; /* To center the text itself */
+      height: 50vh; /* Makes sure the div takes the full height of its parent */
+      flex-direction: column; /* To keep your elements stacked vertically */
+    }
+  }
+
+
+/* center navbar menu on small screen  */
+@media (max-width: 767px) {
+    .custom-navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.gray-bg {
+    background-color: rgba(42, 41, 41, 0.5); 
+    height: 568px;
+    width: 400px;
+}
+
+  
+
+
+/* Background color */
+/* .navbar-custom {
+    background-color:#f9a791 ;  
+} */
+
+/* Bg image */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color:white;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("images/bus.jpeg");
+  
+    height: 70%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+
+.navbar-logo{
+    width: 50px; 
+    height: 50px;
+}
+
+.header-margin {
+    margin-top: 200px;
+}
+
+.navbar-toggler {
+    order: 2;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #1a723d !important;
+    transition: background-color 200ms linear;
+  }
+  
+  .navbar-fixed-top.scrolled a.nav-link {
+    color: #FFFFFF !important;
+  }
+  
+ 
+li a {
+    text-decoration:none;
+  }
+  
+  li a:hover {
+      text-decoration: underline;
+  }
+
+/* section::before {
+    display: block;
+    content: "";
+    margin-top: -80px; 
+    height: 80px;      
+    visibility: hidden;
+} */
+
+/* section {
+    padding-top: 80px; 
+    margin-top: -80px; 
+}  */
+
+
+/* navabr color */
+/* .navbar{
+    background-color: rgb(255, 245, 238);
+} */
+
+/* strong{
+    font-family:sans-serif;
+} */
+.carousel-item {
+    height: 500px;
+}
+.carousel-image-1{
+    background-image: url("images/cadillac1.jpg");
+    height: 300px;
+    width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+
+.carousel-image-2{
+    background-image: url("images/sunrise.jpg");
+    height: 300px;
+    width: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+.carousel-image-3{
+    background-image: url("images/cadillac2.jpg");
+    height: 300px;
+    width: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+/* footer */
+.footer{
+    background-color: #f5f6f0;
+}
+
+
+
