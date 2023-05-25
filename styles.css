@@ -19,8 +19,26 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    
+}
+
+/* center logo image to center */
+@media (max-width: 768px) {
+    img {
+        max-width: 75%!important;
     }
 }
+
+
+
+
 
 .gray-bg {
     background-color: rgba(42, 41, 41, 0.5); 
@@ -28,6 +46,9 @@
     width: 400px;
 }
 
+.section-bg{
+    background-color: #dcddd7; 
+}
   
 
 
@@ -68,16 +89,21 @@ body, html {
 .navbar-toggler {
     order: 2;
 }
+.navbar-custom{
+    background-color: #01796F;
+    
+    
+}
 
-.navbar-fixed-top.scrolled {
-    background-color: #1a723d !important;
+/* .navbar-fixed-top.scrolled {
+    background-color:#01796F !important;
     transition: background-color 200ms linear;
   }
   
   .navbar-fixed-top.scrolled a.nav-link {
     color: #FFFFFF !important;
   }
-  
+   */
  
 li a {
     text-decoration:none;
@@ -115,7 +141,7 @@ li a {
 .carousel-image-1{
     background-image: url("images/cadillac1.jpg");
     height: 300px;
-    width: 800px;
+    width: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +153,7 @@ li a {
 .carousel-image-2{
     background-image: url("images/sunrise.jpg");
     height: 300px;
-    width: 800px;
+    width: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +165,7 @@ li a {
 .carousel-image-3{
     background-image: url("images/cadillac2.jpg");
     height: 300px;
-    width: 800px;
+    width: 700px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -151,6 +177,14 @@ li a {
 .footer{
     background-color: #f5f6f0;
 }
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 
 

@@ -19,30 +19,33 @@
 
 <body>
     <!-- Navigation Bar -->
-    <div class="fixed-top">   
-        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-white  "> 
-            <div class="container-fluid d-flex justify-content-between"  >
+    <div class="fixed-top ">   
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark navbar-custom" > 
+            <div class="container-fluid d-flex justify-content-between text-white " >
                 <a href="index.html" class="navbar-brand d-flex align-items-center" >
                     <img src="cadillacLogo.png"  class="navbar-logo" alt="" >
-                    <span class="nav-link navbar-brand text-black"> Cadillac Mtn Summit Shuttle</span>
+                    <span class="nav-link navbar-brand "> Cadillac Mtn Summit Shuttle</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <ul class="navbar-nav ms-auto me-5 custom-navbar">
+                <div class="collapse navbar-collapse justify-content-between  " id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-5 custom-navbar ">
                         <li class="nav-item ">
-                            <a class="nav-link  text-black" aria-current="page" href="#home"> Home </a>
+                            <a class="nav-link text-white " aria-current="page" href="#home"> Home </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white " aria-current="page" href="#about"> About Us </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  text-black" href="#schedule"> Services</a>
+                            <a class="nav-link  text-white" href="#schedule"> Services</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link  text-black" href="#questions"> Questions </a>
+                            <a class="nav-link text-white" href="#questions"> Questions </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  text-black" href="#footer"> Contact Us</a>
+                            <a class="nav-link text-white " href="#footer"> Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -106,8 +109,8 @@
         </div>
     </div>
     
-    <!-- About section -->
-    <section id="learn" class="p-5 bg-light text-black">
+    <!-- Luring section -->
+    <section id="learn" class="p-5 text-black section-bg">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md">
@@ -155,7 +158,7 @@
                     </div> 
                 </div>
                 <div class="col-md p-5" >
-                    <h2>Ride to the Summit of Cadillac Mountain with us! </h2>
+                    <h1>Ride to the Summit of Cadillac Mountain with us! </h1>
                     <p class="lead">
                         <p>Easy, hassle-free access to Cadillac Mountain!</p>
                         <p>Come see the sunrise or sunset - easy up, easy down!</p>
@@ -170,11 +173,45 @@
             </div>
         </div>
     </section>
+<!-- About section -->
+        
+    <section id="about" class="p-5 bg-white text-black">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-2 d-flex flex-column align-items-md-start align-items-center">
+                    <h2>About us </h2>
+                    <p class="lead">
+                        Cadillac Mtn Summit Shuttle is a profit-for-purpose social enterprise, based in Bar Harbor, Maine.
+                        We aim...... Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Provident necessitatibus placeat tempora, vero quod maxime odit enim repellat?
+                        Odio nemo earum, quam sit mollitia ea! Dolorem ab minima eaque tenetur.
+                    </p>
 
-    <section class="bg-secondary" id="schedule" >
-        <div class="container text-white" >
+                    <p class="bi bi-chevron-right lead">Get connected with us on social networks:</p>
+                    <section class="mt-3 d-flex justify-content-md-start justify-content-center">
+                        <!-- Facebook -->
+                        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                        href="https://www.facebook.com/profile.php?id=100090993112672" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <!-- Instagram -->
+                        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                        role="button"><i class="fab fa-instagram"></i></a>
+                    </section>
+                </div>
+                <div class="col-md d-flex justify-content-center">
+                    <img src="cadillacLogo.png" class="img-fluid mx-auto my-auto" style="max-width: 50%;" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule"  style="background-color:#01796F">
+        <div class="container text-center text-white" >
             <div class="row">
-              <div class="col order-first mt-3">
+              <div class="col-lg order-first mt-3">
                 <h1>Shuttle Schedule</h1>
                 <p class="lead">
                     <p>The shuttle goes up and down the mountain hourly, sunrise to sunset, with a mid-day break, every day, all season long.</p> 
@@ -182,10 +219,10 @@
                     <p>*All schedules are subject to change and are approximations. They can vary 5-10 minutes, depending on traffic and weather. Please check website for updates, especially in extreme weather.</p> 
                 </p>
               </div>
-              <div class="col mt-3 ">
-                <h2>Shuttle Schedule </h2>
-                    <div class="col-md  ">
-                        <table class="table table-striped ">
+              <div class="col-lg mt-3 ">
+                <h1>Shuttle Schedule </h1>
+                    <div class="col-md ">
+                        <table class="table mt-4 text-white ">
                             <thead>
                                 <tr>
                                     <th scope="col">#</th>
@@ -206,22 +243,27 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <h2>Pickup and Drop-off Location</h2>
+                        <p>Pickup and drop-off in Bar Harbor is located at:</p>
+                        <p>317 Main St., 2 blocks up from ball park at the Sunoco Station, in between Pat's Pizza and Everyday Joe's.</p>
+                        <p>*All visitors to Acadia National Park must have an individual park entrance pass.
+                            These passes can be found at:
+                            <a href="https://www.nps.gov/acad/planyourvisit/fees.htm" class="text-white">www.nps.gov/Acadia</a>
+                            fees & passes</p>
+
+                       
                     </div>
                 </div>
-                <div class="col order-last mt-3 ">
+                <div class="col-lg order-last mt-3">
                     <h1 >Ticket Pricing</h1>
                     <p class="lead" >One-way or round-trip tickets available:</p>
-                    <ul>
-                        <li>One-way ticket: $10.00</li>
-                        <li>Round-trip ticket: $20.00</li>
-                        <li>Dogs: $5.00</li>
+                    <ul class="lead">
+                        <ul> <b>One-way ticket: $10.00</b></ul>
+                        <ul> <b>Round-trip ticket: $20.00</b></ul>
+                        <ul> <b>Dogs: $5.00</b></ul>
                     </ul>
                     <p>Cash is preferred, but we also accept cards. Tips are appreciated.</p>
-                    <p>MDI locals and MDI workers receive 1/2 price. Must have ID and/or paystub with ID.</p>
-
-                    <h2>Pickup and Drop-off Location</h2>
-                    <p>Pickup and drop-off in Bar Harbor is located at:</p>
-                    <p>317 Main St., 2 blocks up from ball park at the Sunoco Station, in between Pat's Pizza and Everyday Joe's.</p>
+                    <p>MDI locals and MDI workers receive 1/2 price. Must have ID and/or paystub with ID.</p>                  
                 </div>
             </div>
         </div>
@@ -407,7 +449,7 @@
    
     
     <!-- Questions Accordion -->
-    <section id ="questions" class="p-5">
+    <section id ="questions" class="p-5" style="background-color: #e6e7e0;">
         <div class="container">
             <h2 class="text-center mb-4">Frequently Asked Questions</h2>
             <div class="accordion accordion-flush" id="questions">
@@ -541,9 +583,12 @@
     </section>
 
      <!-- Footer -->
-    <footer class="text-center text-lg-start text-muted border-bottom" id="footer" style="background-color: #f5f6f0;">
+    <footer class="text-center text-lg-start text-muted border-bottom" id="footer" >
         <!-- Section: Social media -->
         <section class="d-flex justify-content-center justify-content-lg-between p-4 "></section>
+        <!-- <div class="text-center ">
+            <img src="cadillacLogo.png"  class="logo" width="460" height="345" alt="">
+        </div> -->
             <!-- Section: Social media -->
         <div class="container text-center text-md-start mt-5">
             <!-- Grid row -->
@@ -572,11 +617,7 @@
                 <a href="https://www.nps.gov/acad/planyourvisit/fees.htm" class="text-reset">Park Pass</a>
                 </p>
                 <p>
-                <a href="#!" class="text-reset">Accomodation</a>
-                </p>
-                <p>
-                <a href="#!" class="text-reset">Help</a>
-                </p>
+                
             </div>
 <!-- Brief text about company -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
@@ -587,6 +628,7 @@
                 Cadillac Mtn Summit Shuttle is a profit-for-purpose social enterprise, based in Bar Harbor, Maine. We aim...... Lorem ipsum
                 dolor sit amet, consectetur adipisicing elit.
                 </p>
+                
             </div>
             <!-- Grid column -->
     
@@ -624,13 +666,13 @@
                 <!-- Facebook -->
                 <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/profile.php?id=100090993112672" role="button"><i class="fab fa-facebook-f"></i></a>
                 <!-- Twitter -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+                <!-- <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a> -->
                 <!-- Google -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i class="fab fa-google"></i></a>
+                <!-- <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i class="fab fa-google"></i></a> -->
                 <!-- Instagram -->
                 <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i></a>
                 <!-- Linkedin -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                <!-- <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a> -->
             
             </section>
             
